@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Ilya\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Ilya\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TestAssignment_Simulation.-1812554731.00" t="ExcludeRecursive" />
+    <e p="D:\Documents\Unity\Projects\TestAssignment_Simulation" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Generation" t="Include">
+            <e p="Generator.cs" t="Include" />
+          </e>
+          <e p="Objects" t="Include">
+            <e p="ColoredObject.cs" t="Include" />
+            <e p="Field" t="Include">
+              <e p="Field.cs" t="Include" />
+              <e p="FieldCell.cs" t="Include" />
+            </e>
+            <e p="MovingAgent.cs" t="Include" />
+            <e p="TeamObject.cs" t="Include" />
+            <e p="VisualEffect.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="EventManager.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="SaveLoad" t="Include">
+              <e p="PlayerData.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UI" t="Include">
+            <e p="Ui_MainController.cs" t="Include" />
+            <e p="Ui_SettingsWindowController.cs" t="Include" />
+            <e p="Ui_SimulationWindowController.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="TestAssignment_Simulation.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
