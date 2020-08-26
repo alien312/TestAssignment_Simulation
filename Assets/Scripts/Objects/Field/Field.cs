@@ -59,7 +59,7 @@ public class Field : MonoBehaviour
                         newY >= 0 && newY < FieldCells.Length)
                     {
                         var cell = FieldCells[newX][newY];
-                        if(cell.AnimalOnCell!=null) continue;
+                        if(cell.IsOccupiedByAnimal) continue;
                         if (cell.Equals(agent.TargetCell))
                         {
                             agent.CurrentCell.AnimalOnCell = null;

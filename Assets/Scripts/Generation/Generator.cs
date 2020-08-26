@@ -99,7 +99,7 @@ public class Generator
                 newY %= m_Field.FieldCells.Length;
 
                 foodCoordinates = new Vector2Int(newY, newX);
-            } while (foodCoordinates.Equals(coordinates));
+            } while (foodCoordinates.Equals(coordinates) || m_Field.FieldCells[foodCoordinates.x][foodCoordinates.y].IsOccupiedByFood);
 
             GameObject foodObject;
             if (isInstantiationNeeded)
@@ -202,7 +202,7 @@ public class Generator
 
         foreach (var fieldRow in m_Field.FieldCells)
         {
-            foreach (var animalOnCell in fieldRow.Where(cell => cell.AnimalOnCell != null)
+            foreach (var animalOnCell in fieldRow.Where(cell => cell.IsOccupiedByAnimal)
                 .Select(cell => cell.AnimalOnCell))
             {
                 var agent = animalOnCell.gameObject.GetComponent<MovingAgent>();
